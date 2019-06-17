@@ -1,0 +1,118 @@
+@charset "utf-8";
+body{
+	background: #000;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+.wrapper{
+	/*margin-top: 150px;*/
+	background-image: url(../pic/HomeFragrances/bghomefragrance.png);
+	width: 100%;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	background-repeat: no-repeat;
+}
+/*.bgFragrances01{
+	background-image: url(pic/index_mainbg.jpg);
+	background-size:cover;
+	width: 100%;
+	height:1600px;
+	vertical-align: bottom;
+	background-repeat: no-repeat;
+	z-index: -1;
+	top: 0;
+	display: inline-block;
+	box-sizing:border-box;
+	position: relative;
+	text-align: center;
+}*/
+#contain{
+	color: white;
+	text-shadow:2px 2px 5px #000000;
+	left:50%;
+	position: absolute;
+	margin-top: 300px;
+	margin-left:-250px;
+	padding: 20px;
+	width: 500px;
+	height: 180px;
+	background: rgba(70,70,70,0.5);
+	bottom: 0;
+	top: 0;
+	line-height: 25px;
+	text-align: center;
+}
+h1{
+	font-size: 20px
+}
+#productbox{
+	padding-top:300px;
+	position: relative;
+	padding-bottom: 100px;
+
+}
+@media(max-width:767px){
+#productbox{
+	padding-bottom:1314px;
+}
+}
+
+.product01 i{
+	font-size: 30px;
+	color:#a48300;
+}
+
+.product01{
+	position: relative;
+	
+}
+.product01 ul{
+	display:inline-block;
+	height: 400px;
+	width: 255px;
+	background-color:rgba(255,255,255,0.8);
+	margin-left: 50px;
+	padding-bottom: 20px;
+	text-align: center;
+	margin-top: 300px;
+}
+.product01 li{
+	line-height: 40px;
+}
+.product01 img{
+	padding-top: 10px;
+	margin:0px 10px;
+	width: 90%;
+}
+
+
+.product02 i{
+	font-size: 30px;
+	color:#a48300;
+}
+.product02{
+	position: relative;
+	
+}
+.product02 ul{
+	display: inline-block;
+	height: 400px;
+	width: 255px;
+	background-color:rgba(255,255,255,0.8);
+	margin-left: 50px;
+	padding-bottom: 20px;
+	text-align: center;
+	margin-top:100px;
+}
+.product02 li{
+	line-height: 40px;
+}
+.product02 img{
+	padding-top: 10px;
+	margin:0px 10px;
+	width: 90%;
+}

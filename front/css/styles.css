@@ -1,0 +1,229 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  outline: 1px solid red
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+header {
+  z-index: 10;
+  width: 100%;
+  height: 225px;
+  background-color: #EFDEC2;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+header h1 {
+  color: #fff;
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: 100;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+
+header nav {
+  position: absolute;
+  bottom: 0;
+  height: 80px;
+  line-height: 100px;
+  width: 100%;
+  background-color: rgba(225, 214, 183, 0.5);
+
+}
+header nav a.hover {
+  color: #9f8124;/*#72625a*/
+  font-size: 16px;
+  font-family:"Microsoft JhengHei";
+  display: inline-block;
+  padding: 25px 40px;
+  text-decoration: none;
+  line-height: 35px;/*
+  letter-spacing: 0;*/
+}
+header nav a.hover:hover {
+  color: #F1AD63;/*
+  letter-spacing: 0.5px;*/
+}
+header nav a.hover:after,
+header nav a.hover:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  -webkit-transition: all 280ms ease-in-out;
+          transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+header nav a.hover:hover:after,
+header nav a.hover:hover:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-color: #F1AD63;
+  -webkit-transition: width 350ms ease-in-out;
+          transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+header nav a.hover:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+.secNav{
+  float: right;
+  margin: 15px;
+}
+.secNav i{
+  padding-right: 15px;
+  font-size: 24px;
+  color: #9f8124;
+}
+.secNav i:hover{
+  padding-right: 15px;
+  font-size: 24px;
+  color: #F1AD63;
+}
+
+
+
+
+
+/* Sticky Header Style 不可以刪,logo效果*/
+/* ---------------------------------------- */
+body.sticky-header {
+  padding-top: 100px;
+}
+body.sticky-header header {
+  height: 60px;
+  background-color: rgba(245, 230, 212, 0.5);
+}
+body.sticky-header header h1 {
+  -moz-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  -webkit-transform: scale(0, 0);
+  transform: scale(0, 0);
+}
+
+@media screen and (max-width: 50em) {
+  .htmleaf-header {
+    padding: 3em 10% 4em;
+  }
+  .htmleaf-header h1 {
+        font-size:2em;
+    }
+}
+
+@media screen and (max-width: 40em) {
+  .htmleaf-header h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 30em) {
+    .htmleaf-header h1 {
+        font-size:1.2em;
+    }
+}
+
+/*小logo
+--------------------*/
+#cd-logo {
+  float: left;
+  padding-left:10px;
+  padding-top: 10px;
+}
+
+/*footer
+--------------------*/
+ footer {
+  width: 100%;
+  background-color: #EFDEC2;/*
+  text-align: center;*/
+  position: relative;/*
+  bottom: 0;*/
+
+  }
+
+ footer h4{
+  text-align: center;
+  }
+
+
+  footer .block{
+    width: 45%;
+  }
+
+  footer div {
+  outline: 1px solid #f00;
+  color: #72625a;
+  font-family:Microsoft JhengHei;
+  display: inline-block;
+  padding: 20px 20px;
+  text-decoration: none;
+  line-height: 30px;
+  }
+
+
+
+
+
+
+
+
+
+/*底下暫放以看效果如何呈現,之後加入自己版面後即可刪除
+------------------------------------------------------*/
+
+
+
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+

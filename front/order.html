@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport"  charset="UTF-8" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="imgs/favicon.ico">
+ 	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/rwd-tables.css">
+	   <!-- header -->
+    <link rel="stylesheet" type="text/css" href="css/menu_styles.css">
+    <!-- content -->
+    <!-- font -->
+   
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <script src="http://libs.useso.com/js/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+    <script>
+    window.jQuery || document.write('<script src="js/jquery-2.1.1.min.js"><\/script>')
+    </script>
+    <script src="js/loginBox.js"></script>
+
+
+
+
+	<!-- for tag menu -->
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js'></script> <!-- slide Toggle -->
+	<script src="js/jquery.rwd-tables.min.js"></script>
+	<script type="text/javascript" src="jquery/tag.js"></script><!-- for tag menu -->
+	
+	<script> //商品明細  展開收合 start
+	$(document).ready(function(){
+	$("#productDetailButton").click(function(){
+	$("#product_slide_toggle").slideToggle();
+		});
+	});
+	</script> <!-- 展開收合 end -->
+	
+	<script> //課程聯絡人資訊  展開收合 start
+	$(document).ready(function(){
+	$("#courseDetailButton").click(function(){
+	$("#course_slide_toggle").slideToggle();
+		});
+	});
+	</script> <!-- 展開收合 end -->
+
+	<!-- beginning of script RWD table setting -->
+	
+	<div id="jquery-script-menu">
+		<div class="jquery-script-center">
+	
+			<div class="jquery-script-ads">
+				<script type="text/javascript"
+				src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+				</script>
+			</div>
+	
+			<div class="jquery-script-clear">
+			</div>
+		</div>
+	</div>
+		
+		<!-- end of script RWD table setting -->
+	
+
+	<title>Order</title>
+</head>
+
+
+
+
+
+<body class="rwd-tables eBgBlur" >
+
+	 <header id="oneheader">
+        <h1><img src="imgs/Logo_2.png" alt=""></h1>
+        <nav>
+            <a href="index.html" class="cd-logo"><img src="imgs/sec_Logo.png" alt="Logo"></a>
+            <a href="HomeFragrances.html" class="hover">居家香氛</a>
+            <a href="essentialOil.html" class="hover">按摩精油</a>
+            <a href="perfumeList.html"class="hover">香　水</a>
+            <a href="diyCourse.html" class="hover">DIY體驗活動</a>
+            <a href="story.html" class="hover">品牌故事</a>
+            <div class="secNav">
+                <div>
+                    <a href="myfavorites.php"><i class="fa fa-heart"></i></a>
+                    <a href="CartShow.php"><i class="fa fa-shopping-cart"></i></a>
+                    <i class="fa fa-user member"></i>
+                </div>
+                <div class="secNavList">
+                    <a href="order.html"><i class="fa fa-file-text"></i></a>
+                    <a href="memdata.php"><i class="fa fa-pencil-square-o"></i></a>
+                    <a><i class="fa fa-sign-in"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!-- ------以下為自己的頁面------ -->
+
+<div id="orderBody">
+	<div id="tabsDiv">
+		<ul id="tabs"> <!-- 頁籤選單(商品購物&報名課程) -->
+		  <li class="eShopping focusButton tabButton">商品購物訂單</li>
+		  <li class="DIY unfocusButton tabButton">課程報名記錄</li>
+		</ul>
+	</div>
+	
+	
+	
+	
+	
+	<div id="content1">    <!-- 頁籤一內容 start -->
+		<div> <!-- beginning of data 1 -->
+			<table class="rwd-tables" id="contentOne">     <!-- 最新資料start -->
+					<tr>
+						<th class="orderNo">訂單編號</th>
+						<th class="dateCol">訂單日期</th>
+						<th class="qtyCol">數量</th>
+						<th class="dollar">訂單總額</th>
+						<th class="payment">付款方式</th>
+						<th>訂單狀態</th>
+						<th>訂單詳情</th>
+					</tr>
+				
+				
+					<tr><!-- 匯入My SQL資料 -->
+					    	<td>20150513661706</td>
+					    	<td>2015-10-13</td>
+					    	<td>3</td>
+					    	<td>$3,280</td>
+					    	<td>信用卡</td>
+					    	<td>已出貨</td>
+					    	<td>
+						    	<div class="buttonArea">
+						    	<input class="littleButton" type="submit" name="orderItem" value="商品明細" id="productDetailButton"><br><br>
+						    	<input class="littleButton" type="submit" name="cancal" value="取消訂單" class="cancelButton"><br><br>
+						    	<input class="littleButton" type="submit" name="return" value="退貨" class="returnButton"><br>
+								</div>
+							</td>
+					</tr>
+				
+					
+				</table>
+					
+					
+				
+					
+					<div id="product_slide_toggle">
+						<table class="detailTable">
+							<tr>
+								<td>商品名稱</td>
+								<td>規格</td>
+								<td>數量</td>
+								<td>單價</td>
+							</tr>
+				
+							<tr><!-- 匯入My SQL資料 -->
+						    	<td>歐式薄荷淡香精</td>
+						    	<td>30ml</td>
+						    	<td>1</td>
+						    	<td>$980</td>
+							</tr>
+				
+							<tr><!-- 匯入My SQL資料 -->
+						    	<td>芭樂檸檬香氛蠟燭</td>
+						    	<td>200g</td>
+						    	<td>1</td>
+						    	<td>$1,180</td>
+							</tr>
+				
+							<tr><!-- 匯入My SQL資料 -->
+						    	<td>天然澄柚按摩精油</td>
+						    	<td>100ml</td>
+						    	<td>1</td>
+						    	<td>$1,280</td>
+							</tr>
+				
+						</table>
+					</div>
+			</div> <!-- end of data 1 -->
+			
+	
+			
+			
+	
+			<br clear="both">
+			<div class="note">
+				<p>
+					<h4>退換貨注意事項</h4>
+					商品請保持完整(含主商品、配件、贈品與原廠外箱)，若有缺件、毀損等個人因素，Essaims將保留接受退換貨與否之權力。
+				</p>
+			</div>
+	
+	
+	</div><!-- 頁籤一內容 : 訂單資料 end -->
+		
+		
+	
+	
+	<!-- beginnig of course  頁籤二內容 : 課程報名記錄 start-->
+	
+	<div id="content2">
+		
+		<div><!-- 第一筆課程報名資料start -->
+			<table class="rwd-tables" id="contentTwo">
+					<tr>
+						<th class="orderNo">報名編號</th>
+						<th class="dateCol">報名日期</th>
+						<th class="qtyCol">體驗人數</th>
+						<th>體驗時間</th>
+						<th>體驗地點</th>
+						<th class="dollar">課程總金額</th>
+						<th class="dollar">付款方式</th>
+						<th>課程狀態</th> <!-- 正常開課|取消 -->
+						<th>課程詳情</th>
+						
+				
+					</tr>
+				
+				
+					<tr><!-- 匯入My SQL資料 -->
+					    <td>20150513661998</td>
+					    <td>2015-10-10</td>
+					    <td>5</td>
+					    <td>2015-10-19</td>
+					    <td>324桃園區中央路115號</td>
+					    <td>$9500</td>
+					    <td>信用卡</td>
+					    <td>正常開課</td><!-- 開課五天內不能取消 -->
+					    <td>
+						    <div class="buttonArea">
+					    	<input class="littleButton" type="submit" name="orderItem" value="體驗者聯絡資訊" id="courseDetailButton"><br><br>
+					    	<input class="littleButton" type="submit" name="cancal" value="取消課程" class="cancelButton"><br><br>
+					    	
+							</div>
+						</td>
+					</tr>
+				
+					
+				</table>
+		
+				<div id="course_slide_toggle">
+				    	<table class="detailTable">
+				    		<tr>
+				    			<td>姓名</td>
+				    			<td>電話</td>
+				    			<td>Email</td>
+				    		</tr>
+				    		<tr>
+				    			<td>Alice</td>
+				    			<td>0988756241</td>
+				    			<td>alice.wang@gmail.com</td>
+				    		</tr>
+				    		<tr>
+				    			<td>Jack</td>
+				    			<td>0987756241</td>
+				    			<td>Jack.wang@gmail.com</td>
+				    		</tr>
+				    		<tr>
+				    			<td>Jia</td>
+				    			<td>0988556241</td>
+				    			<td>Jia.Lin@gmail.com</td>
+				    		</tr>
+				    	</table>
+				</div>
+		</div><!-- 第一筆課程報名資料start -->
+		
+			<div class="note">
+				<p>
+					<h4>上課須知</h4>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea vel adipisci sint corporis dolorem repellat esse tempore libero expedita eveniet pariatur assumenda autem facere, aliquam nulla tempora ullam voluptate est!
+				</p>
+			</div>
+		<!-- end of course 籤二內容end--></div>
+</div>
+
+
+
+
+
+	
+
+
+</body>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>  <!-- for slideToggle -->
+
+
+
+<script>
+$(".eShopping").click(function () {
+  $("#content1").show();
+  $("#content2").hide();
+});
+</script><!-- for Tag menu content1-->
+
+
+<script>
+$(".DIY").click(function () {
+  $("#content2").show();
+  $("#content1").hide();
+});
+</script>  <!-- for Tag menu content2-->
+
+
+
+<script>
+	$('.littleButton').click(function(){
+		$(this).addClass('focusLittleButton').siblings().addClass('unfocusButton');
+	});
+
+</script>
+
+
+<script>
+	$('.tabButton').click(function(){
+		$(this).addClass('focusButton');
+		$('.tagButton').not(this).removeClass('focusButton').addClass('unfocusButton');
+	});
+
+</script>
+
+
+
+<!----------------------header下滑變小效果-------------------------->
+   
+    <script>
+    $(function() {
+        $(window).scroll(function() {
+            var winTop = $(window).scrollTop();
+            if (winTop >= 30) {
+                $('#oneheader').addClass('sticky-header');
+                $('.cd-logo').css({'opacity':'1'});
+                $('.secNavList').css({'background':'rgb(245, 230, 212)'});
+            } else {
+                $('#oneheader').removeClass('sticky-header');
+                 $('.cd-logo').css({'opacity':'0'});
+                $('.secNavList').css({'background':'#cbb3b7'});
+
+            }
+        });
+    });
+    </script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+       
+        $(".member").click(function() {
+            $(".secNavList").slideToggle();
+
+        });
+    });
+    </script>
+
+</html>

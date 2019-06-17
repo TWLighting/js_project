@@ -1,0 +1,105 @@
+body{
+font-size: 16px;
+background: #EDE7CF;
+}
+
+.topborder{
+	width: 100%;
+	position: relative;
+	
+}
+.topborder #leftflower{
+max-width: 471px;
+max-height: 326px;	
+position: absolute;
+left: 0;
+top:76px;
+
+}
+.topborder #rightflower{
+max-width: 103px;
+max-height: 161px;	
+position: absolute;
+right: 0;
+top:79px;
+}
+
+
+
+.myfavtable{
+ margin:0 auto;
+ margin-top: 250px;
+ margin-bottom: 50px;
+ width: 60%;
+ box-sizing: border-box;
+z-index:-100;
+}
+
+.myfavtable caption{
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom:5px;
+}
+
+.myfavtable th{
+	font-weight: bold;
+	border-right:3px solid #fff;
+
+	
+}
+.myfavtable td{
+	position: relative;
+	box-sizing:border-box;
+	display:table-cell;
+	vertical-align:middle;
+	padding:5px;
+	text-align: center;
+	
+}
+.myfavtable #productimg{
+	max-width: 10%;
+}
+.myfavtable tr:nth-child(1){
+background: #f0dca2;
+padding:0 5px;	
+vertical-align: middle;
+padding: 34px 45px;
+vertical-align: middle;
+height: 25px;
+font-size: 18px;
+line-height: 30px;
+}
+.myfavtable tr:nth-child(2n+2){
+background: #fff;
+}
+.myfavtable tr:nth-child(2n+3){
+background: #d6d6d4;
+}
+
+.myfavtable td img{
+	max-width: 98px;
+	max-height:150px;
+}
+
+.myfavtable button{
+	padding:5px 30px;
+	border-radius:5% 5% 5% 5%;
+}
+.pagerow{
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+
+
+
+.pagerow #bottomflower{
+	z-index: -50;
+	max-width: 614px;
+	max-height: 312px;	
+	position: absolute;
+	top: -281px;
+	left: 60%;
+	
+}

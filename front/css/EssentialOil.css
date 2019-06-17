@@ -1,0 +1,201 @@
+
+body{
+  background: #dcd3c2;
+
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+#big-wrapper{
+  position: relative;
+width: 100%;
+background: #dcd3c2;
+}
+
+#container{
+background: #dcd3c2;
+text-align: left;
+}
+/*@media(max-width:767px){
+  #mainimg img{
+    display: none;
+    visibility: hidden;
+  }
+}*/
+#mainimg{
+    display: block;
+    width: 50%;
+    position: fixed;
+    height: 900px;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    margin-left:1%;
+    /*background-image: url(pic/sky-clouds-field-blue.jpg);*/
+}
+#mainimg img{
+  width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+}
+
+/*@media (min-width: 770px){
+   #mainimg{
+   
+    min-width: 315px;
+  
+}
+  }*/
+
+
+#container-right{
+min-width:80%;
+/*outline: 3px solid ##00FF00;*/
+z-index: 10;
+margin-top: 230px;
+background: #dcd3c2;
+}
+
+#contents  { 
+ float:right;
+ width: 920px;
+/* background: #ff0000;*/
+}
+#product{
+ 
+}
+#product ul{
+position: relative;
+top:0;
+left: 0;
+padding:10px;
+
+}
+
+#product{
+  background: #dcd3c2;
+}
+
+#product ul>*{
+  position: relative;
+  background: #fff;
+
+}
+
+
+#item01_text{
+  display: inline-block;
+  text-align: left;
+  height: 400px;
+  font-size: 18px;
+  vertical-align:middle;
+  line-height: 30px;
+  padding-left: 20px;
+  tex
+}
+#item01_text i{
+  font-size: 30px;
+  color: #a48300;
+}
+
+/*#item00{
+  width: 290px;
+  height: 500px;
+  float: left;
+  margin-bottom:10px;
+  font-size: 30px
+}*/
+#item01{
+width: 500px;
+height: 500px;
+margin-left: 10px;
+float: left;
+margin-bottom:10px;
+vertical-align: middle;
+}
+#item01 img{
+  text-align: left;
+  width: 60%;
+}
+
+#item02{
+width: 370px;
+height: 245px;
+float: left;
+margin-bottom:10px;
+margin-left: 10px;
+}
+#item02 img{
+  text-align: left;
+  width: 39%;
+  padding-left: 5px;
+}
+#item03{
+width: 370px;
+height: 245px;
+float: left;
+margin-bottom:10px;
+margin-left: 10px;
+}
+#item03 img{
+  text-align: left;
+  width: 39%;
+  padding-left: 5px;
+}
+#item04{
+width: 880px;
+height: 500px;
+margin-left: 10px;
+float: left;
+margin-bottom:10px;
+
+}
+#item04 img{
+  text-align:left;
+  width: 65%;
+}
+#item05{
+width: 435px;
+height: 500px;
+float: left;
+margin-bottom:10px;
+margin-left: 10px;
+}
+#item05 img{
+  text-align: left;
+  width: 90%;
+}
+#item06{
+width: 435px;
+height: 500px;
+float: left;
+margin-bottom:10px;
+margin-left: 10px;
+}
+#item06 img{
+  text-align: left;
+  width: 90%;
+}
+.magic{
+  top:300px;
+  z-index: 10;
+  text-align: left;
+  margin-left: 300px;
+  position: fixed;
+}
+.yeah {
+      color: #333;
+      font-size: 8em;
+      letter-spacing: 20px;
+      text-align: center;
+      font-family: arial;
+      color: #a48300;
+/*      margin-top: 500px;*/
+}
+.yeah p {
+      display: inline-block;
+      font-size: 50px;
+}

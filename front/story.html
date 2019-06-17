@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        ESSAIMS
+    </title>
+    <link rel="shortcut icon" href="imgs/favicon.ico">
+    <!-- header -->
+    <link rel="stylesheet" type="text/css" href="css/menu_styles.css">
+    <!-- slider -->
+    <link rel="stylesheet" type="text/css" href="css/story_slider_styles.css">
+    <!-- content -->
+
+    <!-- <link rel='stylesheet prefetch' href='http://fonts.useso.com/css?family=Open+Sans'>
+    <link rel="stylesheet" type="text/css" href="css/2_story_slider_styles.css"> -->
+
+
+
+    <link rel="stylesheet" href="css/story_styles.css">
+    <link rel="stylesheet" href="css/story_visual_styles.css">
+    <link rel="stylesheet" href="css/story_honeycomb_styles.css">
+    <!-- font -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <script>
+    window.jQuery || document.write('<script src="js/jquery-2.1.1.min.js"><\/script>')
+    </script>
+    <script src="js/loginBox.js"></script>
+</head>
+
+<body>
+   <header id="oneheader">
+        <h1><a href="index.html"><img src="imgs/Logo_2.png" alt=""></a></h1>
+        <nav>
+            <a href="index.html" class="cd-logo"><img src="imgs/sec_Logo.png" alt="Logo"></a>
+            <a href="HomeFragrances.html" class="hover">居家香氛</a>
+            <a href="essentialOil.html" class="hover">按摩精油</a>
+            <a href="perfumeList.html"class="hover">香　水</a>
+            <a href="diyCourse.html" class="hover">DIY體驗活動</a>
+            <a href="story.html" class="hover active">品牌故事</a>
+            <div class="secNav">
+                <div>
+                    <a href="myfavorites.php"><i class="fa fa-heart"></i></a>
+                    <a href="CartShow.php"><i class="fa fa-shopping-cart"></i></a>
+                    <i class="fa fa-user member"></i>
+                </div>
+                <div class="secNavList">
+                    <a href="order.html"><i class="fa fa-file-text"></i></a>
+                    <a href="memdata.php"><i class="fa fa-pencil-square-o"></i></a>
+                    <a><i class="fa fa-sign-in"></i></a>
+                </div>
+            </div>
+       </nav>
+        
+        
+        <a href="index.html" class="mobilecd-logo"><img src="imgs/sec_Logo.png" alt="Logo"></a>
+         <div id="mobile"><i class="fa fa-bars fa-2x"></i></div> 
+        
+         <div id="mobileNav">
+
+            <a href="HomeFragrances.html" class="hover">居家香氛</a>
+            <a href="essentialOil.html" class="hover">按摩精油</a>
+            <a href="perfumeList.html"class="hover">香　水</a>
+            <a href="diyCourse.html" class="hover">DIY體驗活動</a>
+            <a href="story.html" class="hover active">品牌故事</a>
+            <a href="myfavorites.php">追蹤清單</a>
+            <a href="CartShow.php">購物車</a>
+
+            <a href="order.html">訂單專區</a>
+            <a href="memdata.php">修改會員資料</a>
+            <a><i class="fa fa-sign-in">  登入</i></a>
+              
+        </div>
+    </header>
+    <!---------------套自己的頁面------------------>
+    <!--登入彈出式表單-->
+    <div class="login_box hide" id="login_box">
+        <div>
+            <span class="setclosebtn"><i class="fa fa-times-circle closebtn"></i></span>
+        </div>
+        <nav class="mark">
+            <img src="imgs/Logo_2.png">
+        </nav>
+        <form>
+            <session class="logindata">
+                <input type="text" name="memId" id="memId" class="memId">
+                <input type="password" name="memPsw" id="memPsw">
+            </session>
+            <footer class="r-btnarea">
+                <form action="">
+                    <button type="submit" class="rebtn">登入</button>
+                </form>
+                <form action="Register.php">
+                    <button type="submit" class="logbtn">註冊</button>
+                </form>
+            </footer>
+        </form>
+    </div>
+    <!-- slider -->
+        <!--     <div class="slider-container">
+      <div class="slider-control left inactive"></div>
+      <div class="slider-control right"></div>
+      <ul class="slider-pagi"></ul>
+      <div class="slider">
+        <div class="slide slide-0 active">
+          <div class="slide__bg"></div>
+          <div class="slide__content">
+            <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+              <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+            </svg>
+            <div class="slide__text">
+
+              <h2 class="slide__text-heading">Project name 1</h2>
+              <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+              <a class="slide__text-link" href="http://www.htmleaf.com/jQuery/Slideshow-Scroller/201506031960.html">返回下载页</a>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide-1 ">
+          <div class="slide__bg"></div>
+          <div class="slide__content">
+            <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+              <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+            </svg>
+            <div class="slide__text">
+                
+              <h2 class="slide__text-heading">Project name 2</h2>
+              <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+              <a class="slide__text-link" href="http://www.htmleaf.com/jQuery/Slideshow-Scroller/201506031960.html">返回下载页</a>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide-2">
+          <div class="slide__bg"></div>
+          <div class="slide__content">
+            <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+              <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+            </svg>
+            <div class="slide__text">
+              <h2 class="slide__text-heading">Project name 3</h2>
+              <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+              <a class="slide__text-link" href="http://www.htmleaf.com/jQuery/Slideshow-Scroller/201506031960.html">返回下载页</a>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide-3">
+          <div class="slide__bg"></div>
+          <div class="slide__content">
+            <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+              <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+            </svg>
+            <div class="slide__text">
+              <h2 class="slide__text-heading">Project name 4</h2>
+              <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+              <a class="slide__text-link" href="http://www.htmleaf.com/jQuery/Slideshow-Scroller/201506031960.html">返回下载页</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>要調整 會蓋住整個畫面-->
+
+
+
+    <div class="skw-pages">
+        <div class="skw-page skw-page-1 active">
+            <div class="skw-page__half skw-page__half--left">
+                <div class="skw-page__skewed">
+                    <div class="skw-page__content"></div>
+                </div>
+            </div>
+            <div class="skw-page__half skw-page__half--right">
+                <div class="skw-page__skewed">
+                    <div class="skw-page__content">
+                        <h2 class="skw-page__heading">
+              以遙遠海岸的天然香草作為基底原料，根據不同的主題，時而香濃馥郁、時而清雅淡幽。彷彿低訴著一則則不同的故事，ESSAIMS 總能讓人想起生命中的特殊時刻，喚醒隱藏在心底深處的記憶，以最真摯的情感蘊釀出一瓶瓶珍貴的香水。 
+            </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skw-page skw-page-2">
+            <div class="skw-page__half skw-page__half--left">
+                <div class="skw-page__skewed">
+                    <div class="skw-page__content">
+                        <h2 class="skw-page__heading">Page 2</h2>
+                        <p class="skw-page__description">Nothing to do here, continue scrolling.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skw-page__half skw-page__half--right">
+                <div class="skw-page__skewed">
+                    <div class="skw-page__content"></div>
+                </div>
+            </div>
+        </div>
+        <div class="skw-page skw-page-3">
+            <div class="skw-page__half skw-page__half--left">
+                <div class="skw-page__skewed">
+                    <div class="skw-page__content"></div>
+                </div>
+            </div>
+            <div class="skw-page__half skw-page__half--right">
+                <div class="skw-page__skewed">
+                    <div class="skw-page__content">
+                        <h2 class="skw-page__heading">Page 3</h2>
+                        <p class="skw-page__description">The end is near, I promise!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skw-page skw-page-4">
+            <div class="skw-page__half skw-page__half--left">
+                <div class="skw-page__skewed">
+                    <div class="skw-page__content">
+                        <h2 class="skw-page__heading">Page 4</h2>
+                        <p class="skw-page__description">Ok, ok, just one more scroll!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skw-page__half skw-page__half--right">
+                <div class="skw-page__skewed">
+                    <div class="skw-page__content"></div>
+                </div>
+            </div>
+        </div>
+        <div class="skw-page skw-page-5">
+            <div class="skw-page__half skw-page__half--left">
+                <div class="skw-page__skewed">
+                    <div class="skw-page__content"></div>
+                </div>
+            </div>
+            <div class="skw-page__half skw-page__half--right">
+                <div class="skw-page__skewed">
+                    <div class="skw-page__content">
+                        <h2 class="skw-page__heading">Epic finale</h2>
+                        <p class="skw-page__description">story the end!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- hammer -->
+    <div class="hammer">
+        <img src="imgs/story/hammer.png" alt="">
+    </div>
+    <!-- visual -->
+    <section class="visual_plate">
+        <div class="visual">
+            <article>
+                <img src="imgs/story/paris-675916_1920.png" alt="Paris" data-parallax='{"y": 250}' />
+                <p>Fashions fade<br>style is eternal</p>
+            </article>
+        </div>
+        <div class="yeah">
+            <p data-parallax='{"z": -300}'>être</p>
+            <p data-parallax='{"z": -400}'>chic</p>
+            <p data-parallax='{"z": -600}'>et</p>
+            <p data-parallax='{"z": -400}'>fabuleuse</p>
+            <p data-parallax='{"rotateX": 1000}'>!</p>
+        </div>
+    </section>
+    <!-- honey -->
+    <!-- plate_1 -->
+    <div class="plate_1">
+        <ul>
+            
+            <li>
+                <div class="shape">
+                    <a href="#" class="overlay hexagon"></a>
+                    <div class="details">
+                        <span class="heading">First Impressions</span>
+                        <hr />
+                        <p>Vous n'aurez pas deux fois l'occasion de faire une première bonne impression.
+                            <br>留下好的第一印象非常重要，ESSAIMS讓你成為不可取代的你
+                        </p>
+                    </div>
+                    <div class="bg"></div>
+                    <div class="base">
+                        <img src="imgs/story/gif/giphy.gif" alt="" />
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="shape">
+                    <a href="#" class="overlay hexagon"></a>
+                    <div class="details">
+                        <span class="heading">Pure Essense</span>
+                        <hr />
+                        <p>We don't design prefume.We design dreams.<br>ESSAIMS 遵循傳統香水製法，果香、花香精油與酒精經過半年的浸漬調和</p>
+                    </div>
+                    <div class="bg"></div>
+                    <div class="base">
+                        <img src="imgs/story/gif/touch.gif" alt="" />
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="shape">
+                    <a href="#" class="overlay hexagon"></a>
+                    <div class="details">
+                        <span class="heading">Fresh</span>
+                        <hr />
+                        <p>Style is a way to say who you are without having to speak.<br>ESSAIMS 採當季最新鮮花果製作</p>
+                    </div>
+                    <div class="bg"></div>
+                    <div class="base">
+                        <img src="imgs/story/gif/openflower.gif" alt="" />
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- plate_2 -->
+    <div class="plate_2">
+        <ul>
+            <li>
+                <div class="shape">
+                    <a href="#" class="overlay hexagon"></a>
+                    <div class="details">
+                        <span class="heading">Smells Good</span>
+                        <hr />
+                        <p>The best perfume in the whole world is the one that smells good on you. <br>適合你的味道才是世界上最好的香水</p>
+                    </div>
+                    <div class="bg"></div>
+                    <div class="base">
+                        <img src="imgs/story/gif/boy.gif" alt="" />
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="shape">
+                    <a href="#" class="overlay hexagon"></a>
+                    <div class="details">
+                        <span class="heading">Like Princess</span>
+                        <hr />
+                        <p>Perfume mean nothing until someone lives in them.<br>當你穿上合適的香水，才能賦予它真正的意義</p>
+                    </div>
+                    <div class="bg"></div>
+                    <div class="base">
+                        <img src="imgs/story/gif/cinderella.gif" alt="" />
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="shape">
+                    <a href="#" class="overlay hexagon"></a>
+                    <div class="details">
+                        <span class="heading">Smell Impeccably</span>
+                        <hr />
+                        <p>Smell shabbily and they remember the bad smell; smell impeccably and they remember the woman.
+                        </p>
+                    </div>
+                    <div class="bg"></div>
+                    <div class="base">
+                        <img src="imgs/story/gif/gigi2.gif" alt="" />
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="shape">
+                    <a href="#" class="overlay hexagon"></a>
+                    <div class="details">
+                        <span class="heading">New Life</span>
+                        <hr />
+                        <p>My life didn’t please me, so I created my life.<br>創造屬於自己的香氛生活吧 !</p>
+                    </div>
+                    <div class="bg"></div>
+                    <div class="base">
+                        <img src="imgs/story/gif/fly.gif" alt="" />
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- footer -->
+    <footer id="onefooter">
+        <div class="footerWrapper">
+            <div class="block">
+                <h4>門市資訊 <br>Story Info</h4>
+                <br>
+                <div>
+                    <h4>台北誠品信義門市</h4>
+                    <br>
+                    <span>營業時間： 11:00–22:00<br>
+                          地址： 110台北市信義區<br>
+                    　　　松高路11號<br>
+                          電話：02-8789-3388
+                    </span>
+                </div>
+                <div>
+                    <h4>高雄漢神門市</h4>
+                    <br>
+                    <span>營業時間： 11:00–22:00<br>
+                          地址： 403台中市西區<br>
+                    　　　公益路68號<br>
+                          電話：04-2328-1000
+                    </span>
+                </div>
+                <div>
+                    <h4>台中誠品勤美門市</h4>
+                    <br>
+                    <span>營業時間： 11:00–22:00<br>
+                          地址： 801高雄市前金區<br>
+                    　　　成功一路266-1號<br>
+                          電話：07-215-7266
+                    </span>
+                </div>
+            </div>
+            <!-- Rt -->
+            <div class="block2">
+                <h4>聯絡我們 <br>Contant</h4>
+                <br>
+                <div>
+                    <table>
+                        <tr>
+                            <th>客服電話　Tel：</th>
+                            <td>02-2987-6050</td>
+                        </tr>
+                        <tr>
+                            <th>客服信箱 Mail：</th>
+                            <td>AAA@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th>客服時間 Time：</th>
+                            <td><br>AM 9:30 ~ 12:00
+                                <br>PM 13:30 ~ 17:30
+                                <br>例假日休息</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="block2">
+                <h4>追蹤我們<br>Follow Us</h4>
+                <br>
+                <div>
+                    <a href="#"><img src="imgs/facebook.png" alt=""></a><br>
+                    <a href="#"><img src="imgs/google.png" alt=""></a><br>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--------------header下滑變小效果------------>
+    <!--  header_script -->
+        <script>
+    $(function() {
+        $(window).scroll(function() {
+            var winTop = $(window).scrollTop();
+            if (winTop >= 30) {
+                $('#oneheader').addClass('sticky-header');
+                $('.cd-logo').css({'opacity':'1'});
+                $(' #oneheader .mobilecd-logo').css({'opacity':'1'});
+                $('.secNavList').css({'background':'rgb(245, 230, 212)'});
+            } else {
+                $('#oneheader').removeClass('sticky-header');
+                 $('.cd-logo').css({'opacity':'0'});
+                  $(' #oneheader .mobilecd-logo').css({'opacity':'0'});
+                $('.secNavList').css({'background':'#cbb3b7'});
+
+            }
+        });
+    });
+    </script>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+       
+        $(".member").click(function() {
+            $(".secNavList").slideToggle();
+
+        });
+    });
+    </script>
+      <script type="text/javascript">
+    $(document).ready(function() {
+        $("#mobile").click(function() {
+            $("#mobileNav").slideToggle();
+
+        });
+    });
+</script>
+    <!--  slider_script -->
+    <script src="http://libs.useso.com/js/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-2.1.1.min.js"><\/script>')</script>
+    <script src="js/story_slider.js"></script>
+
+
+
+
+    <!-- visual_script -->
+    <script src="js/jquery.parallax-scroll.js"></script>
+</body>
+
+</html>

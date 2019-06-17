@@ -1,0 +1,517 @@
+html,
+body,
+div,
+span,
+p,
+a,
+del,
+em,
+img,
+ol,
+ul,
+li,
+fieldset,
+form,
+label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: "文鼎細圓";
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+
+}
+
+html,
+body {
+    line-height: 2;
+    min-height: 100%;
+    font-family: Artial, Verdana, sans-serif;
+    outline: 0px;
+}
+
+body {
+    background: #f7f7f0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+p {
+    margin: 1em 0;
+    line-height: 1.8em;
+    font-size: 1.3em;
+}
+
+q {
+    font-style: italic;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.91em;
+    margin: 0;
+}
+
+h1 > small {
+    text-align: right;
+    display: inline-block;
+    font-size: .71em;
+    text-indent: 15em;
+    color: #444;
+}
+
+h2 {
+    color: inherit;
+    font-size: 1.91em;
+    margin: 2em 0 1em 0;
+}
+
+h2:first-child {
+    margin-top: 0;
+}
+
+h3 {
+    color: #333;
+    font-size: 1.41em;
+    margin: 1em 0;
+    font-weight: 600;
+}
+
+h4 {
+    color: #444;
+    font-size: 1.11em;
+    margin: 1em 0;
+}
+
+#bg1,
+#bg2,
+#bg3 {
+    z-index: 9;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../imgs/diy/bubbles.png) repeat 0 0;
+}
+
+#bg2 {
+    z-index: 9;
+    background-image: url(../imgs/diy/bubbles3.png);
+}
+
+#bg3 {
+    z-index: 5;
+    background-image: url(../imgs/diy/bubbles_small.png);
+}
+
+.order {
+    width: 35%;
+    height: 400px;
+    background-color: rgba(125, 0, 0, 0.4);
+    border-radius: 20px;
+    position: absolute;
+    top: 300px;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.order button {
+    margin: auto;
+}
+
+button {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 0;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 0;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 0;
+    color: #fff;
+    background-color: #7d0000;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    height: 36px;
+    padding: 5px 60px;
+    cursor: pointer;
+    
+}
+
+
+#scrollbar {
+    position: fixed;
+    right: 2px;
+    height: 50px;
+    width: 6px;
+    background: #444;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    z-index: -10;
+    border-radius: 3px;
+}
+
+.skrollr-desktop #scrollbar {}
+
+.handmakeInto {
+    height: 50%;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(250,250,250,0.5);
+    background-image: url(../imgs/diy/handmakeInto.png);
+    background-position: 50% 50%;
+	background-size: cover;
+}
+.intoBtn{
+	width: 53%;
+	margin: auto;
+	height: 0;
+	padding-bottom: 15%;
+}
+.intoBtn a{
+
+}
+
+.orderScroll{
+ 	border:2px solid rgba(125, 0, 0, 0.6);
+    border-radius: 50%;
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 36px;
+    font-weight: 700;
+    color: rgb(125,0,0);
+    z-index: 200;
+    width: 108px;
+    float: left;
+}
+.orderDirect {
+    background-color: rgba(125, 0, 0, 0.6);
+    border-radius: 50%;
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 36px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 200;
+   float: right;
+}
+
+.handmake{
+    height: 500px;
+    width: 70%;
+    top: 30%;
+    left: 5%;
+    padding: 50px;
+    border-radius: 15px;
+    background-color: #fff;
+    .transform-origin(50%, 50%);
+}
+.handmake img{
+
+}
+.courseContent img{
+	width: 30%;
+	border-radius: 5px;
+}
+
+.diyCategory img{
+	width: 23%;
+}
+.diyProcess{
+	width: 120px;
+	padding: 15px;
+	background: #EAE8AA;
+	border:1px solid #948A2B;
+	border-radius: 5px;
+	text-align: center;
+	margin: 15px;
+	float: left;
+	vertical-align: middle;
+}
+
+
+
+.teachers{
+    width: 100%;
+    margin: auto;
+    color: #D8A300;
+    font-size: 16px;
+    margin-bottom: 65px;
+}
+
+
+.teachers li {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 2%;
+    border-radius: 50%;
+    line-height: 100px;
+    text-align: center;
+    background: url(../imgs/diy/8614f288dd8f53ef7dfd3cc189539cc8.jpg);
+    background-position: 50%;
+    border: 1px solid #D8A300;
+}
+
+.teachers h1 {
+    text-align: center;
+    color: #7d0000;
+    margin-top: 130px;
+}
+
+.drop {
+    font-weight: bold;
+    padding: 1em;
+}
+
+.drop img {
+    border-radius: 15px;
+    width: 40%;
+}
+.startOrder {
+	height: 30%;
+}
+.startOrder p{
+	text-align: center;
+}
+.startOrder a{
+	margin: auto;
+}
+#diyFooter{
+    width: 100%;
+}
+
+/*apply*/
+
+.diySubmit {
+    width: 40%;
+    height: 300px;
+    margin: 15% auto 15% auto;
+    text-align: center;
+}
+.diySubmit img{
+    cursor: pointer;
+}
+
+.applyWrapper {
+    width: 100%;
+}
+
+#applyContent {
+    max-width: 1280px;
+    width: 95%;
+    background: #fff;
+    border-radius: 15px;
+    margin: 17% auto 13% auto;
+}
+#applyContent h2{
+	text-align: center;
+	padding-top: 65px;
+
+}
+#applyContent h2 img{
+    width: 30%;
+
+}
+
+#applyContent li {
+    padding: 50px;
+    line-height: 36px;
+}
+
+#applyContent input[type="text"] {
+    border: 1px solid #D8A300;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+
+#applyContent select {
+    width: 150px;
+    border: 1px solid #D8A300;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: top;
+}
+#applyContent table{
+	margin-left: 60px;
+}
+#applyContent button{
+	margin-left: 45%;
+}
+th {
+    width: 100px;
+}
+.applyTitle{
+	font-weight: 600;
+	vertical-align: middle;
+}
+.applyTitle img{
+	font-weight: 600;
+	vertical-align: middle;
+}
+@media screen and (min-width: 1000px) {
+   .courseContent img{
+	width: 15%;
+	border-radius: 5px;
+
+	}
+	.diyCategory img{
+	width: 18%;
+	}
+}
+
+@media screen and (max-width:768px) {
+   .courseContent img{
+   	min-width: 150px;
+	width: 32%;
+	border-radius: 5px;
+	
+	}
+	.diyCategory img{
+	min-width:100px;
+	width: 13%;
+	}
+@media screen and (min-width: 769px) and (max-width: 999px){
+   .courseContent img{
+    width: 30%;
+    border-radius: 5px;
+
+    }
+    .diyCategory img{
+    width: 18%;
+    }
+}
+.intoBtn{
+    width: 80%;
+    margin: auto;
+    height: 0;
+}
+.intoBtn a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.orderScroll{
+    border:2px solid rgba(125, 0, 0, 0.6);
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 36px;
+    font-weight: 700;
+    color: rgb(125,0,0);
+    z-index: 200;
+    width: 108px;
+    float: left;
+}
+.orderDirect {
+    background-color: rgba(125, 0, 0, 0.6);
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 36px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 200;
+   float: right;
+   cursor: pointer;
+}
+.handmake{
+    height: 600px;
+    width: 75%;
+    top: 30%;
+    left: 5%;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #fff;
+    .transform-origin(50%, 50%);
+}
+.handmake h2{
+    text-align: center;
+}
+.teachers{
+    width: 74%;
+    margin: auto;
+    color: #D8A300;
+    font-size: 16px;
+    margin-bottom: 65px;
+}
+
+
+.teachers li {
+    float: left;
+    width: 110px;
+    height: 110px;
+    margin: 2%;
+    border-radius: 50%;
+    line-height: 100px;
+    text-align: center;
+    background: url(../imgs/diy/8614f288dd8f53ef7dfd3cc189539cc8.jpg);
+    background-position: 50%;
+    border: 1px solid #D8A300;
+}
+
+.teachers h1 {
+    text-align: center;
+    color: #7d0000;
+    margin-top: 130px;
+}
+    #checkboxes tr>th{
+        min-width: 100px;
+    }
+    #applyContent {
+    max-width: 1280px;
+    width: 95%;
+    background: #fff;
+    border-radius: 15px;
+    margin: 45% auto 13% auto;
+}
+#applyContent li {
+    padding: 20px;
+    line-height: 36px;
+}
+#applyContent button{
+    margin-left: 35%;
+}
+.diySubmit {
+    width:80%;
+    height: 450px;
+    margin: 60% auto 15% auto;
+    text-align: center;
+}
+
+
+}

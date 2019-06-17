@@ -1,0 +1,120 @@
+  body {
+    font-family: arial;
+  }
+
+  .container table {
+    border: 1px solid #ccc;
+    width: 80%;  /*購物步驟下方框寬*/
+    margin:auto;
+    padding:0;
+    border-collapse: collapse;
+    border-spacing: 0;
+ 
+  }
+
+  .container table tr {
+    border: 1px solid #ddd;
+    padding: 5px;
+  }
+
+  .container table th, table td {
+    padding: 10px;
+    text-align: center;
+	vertical-align:middle;
+  }
+  
+  .payWay{
+	height:100px;
+	
+  }
+  
+  .recipient{
+	height:250px;
+	margin-top:30px;  
+  }
+  
+  #cardNumber{
+	margin-top:5px;  
+  }
+  
+  #bankNumber{
+	margin-top:5px;  
+  }
+
+  #remittanceInfo{
+	margin-top:5px;  
+  }
+  
+  
+  .delete{
+	color:#F00;
+  }
+  
+  .goods {
+	/*text-align:left;*/
+  }
+  
+  .pic {
+	/*display:inline-block;
+    vertical-align:middle;
+	margin-left:5px;*/  
+  }                         /*.good和.pic取消註解再加上.pic去除<br/> -> 商品圖片和商品名稱就會變水平*/
+  
+  .pictitle {
+	display:inline-block;
+   	margin-top:5px;  
+  }
+
+  .container table th {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .container tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  .container thead tr:first-child {
+  	background: #999; 
+  }
+  @media screen and (max-width: 600px) {
+
+    .container table {
+      border: 0;
+    }
+
+    .container table thead {
+      display: none;
+    }
+
+    .container table tr {
+      margin-bottom: 10px;
+      display: block;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .container table td {
+      display: block;
+      text-align: right;
+      font-size: 13px;
+      border-bottom: 1px dotted #ccc;
+    }
+	
+	.container tr:nth-of-type(odd) { 
+  	  background: #eee; 
+	}
+	
+	.container thead tr:first-child {
+  	background: #999; 
+    }
+  
+    .container table td:last-child {
+      border-bottom: 0;
+    }
+
+    .container table td:before {
+      content: attr(data-label);
+      float: left;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }

@@ -1,0 +1,359 @@
+  /* 
+Generic Styling, for Desktops/Laptops 
+*/
+body{
+  font-family:微軟正黑體;
+  font-size:16px;
+  color:#555;
+  background-color:#F9F3CF;
+  }
+
+#orderBody{
+  padding-top: 50px;
+  position: relative;
+  margin-top: 225px;
+
+}
+
+#tabsDiv{
+   position: relative;
+/*  top:100px;*/
+}
+
+#content1,#content2{
+margin-top: 50px;
+}
+
+
+table { 
+  width: 90%; 
+  margin:auto;
+  border-collapse: collapse; 
+  border-color: #a48300;
+  background-color:#fff;
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+th { 
+  background: #333; 
+  color: white; 
+  font-weight: bold; 
+}
+
+
+
+td, th { 
+  padding: 15px; 
+  border: 1px solid #a48300; 
+  text-align: left; 
+
+}
+
+table td:last-child{
+  width: 180px;
+}
+
+/* Hide new mobile heading on desktop */
+td span.rwd-tables.thead { 
+	display: none;}
+
+
+
+.buttonArea{
+	width: 60px;
+	margin:10px 0px 10px 10px;
+  display: inline-block;
+
+}
+
+#tabsDiv #tabs .tabButton{
+border:2px solid #a38400;
+background-color: #fff;
+color:#a38400;
+}
+
+#tabs li.focusButton{
+background:#a38400;
+color:#fff;
+}
+
+.unfocusButton{
+
+border:2px solid #a38400;
+background-color: #fff;
+color:#a38400;
+}
+
+.focusLittleButton{
+  background:#a38400;
+color:#fff;
+}
+
+.littleButton{
+  border:2px solid #a38400;
+background-color: #fff;
+color:#a38400;
+ cursor: pointer;
+ font-family:微軟正黑體;
+    font-size:16px;
+}
+
+
+.littleButton:hover{
+  border:2px solid #a38400;
+background-color: #fff;
+color:#a38400;
+box-shadow: 0px 0px 5px #888;
+ cursor: pointer;
+}
+
+#productDetailButton{
+border:2px solid #a38400;
+background-color: #fff;
+color:#a38400;
+   /* -webkit-box-shadow: rgba(0,0,0,0.2) 0 1px 0 0;
+    -moz-box-shadow: rgba(0,0,0,0.2) 0 1px 0 0;
+    box-shadow: rgba(0,0,0,0.2) 0 1px 0 0;
+    color: #fff;
+    background-color: #7d0000;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    height: 36px;
+    padding: 5px 30px;*/
+    cursor: pointer;
+}
+
+#courseDetailButton{
+  border:2px solid #a38400;
+background-color: #fff;
+color:#a38400;
+
+/*    -webkit-box-shadow: rgba(0,0,0,0.2) 0 1px 0 0;
+    -moz-box-shadow: rgba(0,0,0,0.2) 0 1px 0 0;
+    box-shadow: rgba(0,0,0,0.2) 0 1px 0 0;
+    color: #fff;
+    background-color: #7d0000;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    height: 36px;
+    padding: 5px 30px;*/
+    cursor: pointer;
+}
+
+.cancelButton{
+    border:2px solid #a38400;
+background-color: #fff;
+color:#a38400;
+	/*-webkit-box-shadow: rgba(0,0,0,0.2) 0 1px 0 0;
+    -moz-box-shadow: rgba(0,0,0,0.2) 0 1px 0 0;
+    box-shadow: rgba(0,0,0,0.2) 0 1px 0 0;
+    color: #fff;
+    background-color: #7d0000;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    height: 36px;
+    padding: 5px 30px;*/
+    cursor: pointer;
+}
+
+.returnButton{
+   border:2px solid #a38400;
+background-color: #fff;
+color:#a38400;
+	/* -webkit-box-shadow: rgba(0,0,0,0.2) 0 1px 0 0;
+    -moz-box-shadow: rgba(0,0,0,0.2) 0 1px 0 0;
+    box-shadow: rgba(0,0,0,0.2) 0 1px 0 0;
+    color: #fff;
+    background-color: #7d0000;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    height: 36px;
+    padding: 5px 30px;*/
+    cursor: pointer;
+}
+
+
+
+
+.rwd-tables th{
+  background-color: #a48300;
+
+}
+
+
+.detailTable{
+  border:2px solid #a48300 ;
+}
+
+.dollar{
+  width: 80px;
+}
+
+.orderNo{
+  width: 80px;
+}
+
+.payment{
+  width: 80px;
+}
+
+.dateCol{
+  width: 100px;
+}
+
+
+.qty{
+  width: 50px;
+}
+
+
+.note{
+  width:80%;
+  margin:auto;
+}
+
+
+#tabs{
+  text-align: center;
+}
+
+/*頁籤CSS設定 start*/
+#tabs li{
+  background: #ddd;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  margin-right: 10px;
+  padding: 15px 10px;
+  color: #999;
+  cursor: pointer;
+  width: 40%;
+  display: inline-block;
+  
+}
+/*
+#tabs li:hover{
+  color: #666;
+}
+*/
+
+#tabs li.eShopping{
+  border-bottom: 1px solid #ddd;
+  margin-bottom: -1px;
+  color: #fff;
+}
+
+
+#tabsDiv{
+width: 90%;
+margin:auto;
+/*outline: 1px solid #f00; */
+}
+
+/*#content1{
+  border: 1px solid #ccc;
+  box-shadow: 0 0 16px #ccc;
+}
+#content1 > div{
+  display: none;
+  padding: 10px 15px;
+}
+#content1 > div:first-of-type{
+  display: block;
+}*/
+
+
+/*頁籤CSS設定 end*/
+
+	
+#product_slide_toggle {
+	display: none;
+	margin-top: 10px;
+	/* 隱藏註解文字區塊*/
+	}
+
+#course_slide_toggle {
+	display: none;
+	margin-top: 10px;
+	/* 隱藏註解文字區塊*/
+	}
+
+#content2{
+  display: none;
+}
+
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table.rwd-tables, .rwd-tables thead, .rwd-tables tbody, .rwd-tables th, .rwd-tables tbody,
+	.rwd-tables td, .rwd-tables tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	.rwd-tables thead, .rwd-tables th { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	.rwd-tables tfoot {
+		display: block;
+		text-align: right;
+	}
+
+	.rwd-tables tfoot td {
+		display: inline-block;
+	}
+	
+	td span.rwd-tables, td span.rwd-tables.thead {
+		width: 50%;
+		display: inline-block;
+	}
+	td span.rwd-tables.tbody{
+		text-align: right;
+	}
+
+	/* 
+	Generic Styling, for Mobiles
+	*/
+
+	.rwd-tables tfoot tr:nth-of-type(odd), .rwd-tables tfoot td { 
+	  background: #333; 
+	  color: white; 
+	  font-weight: bold; 
+	  border-bottom: none;
+	}
+	
+	.rwd-tables tr { border: 1px solid #ccc; }
+	
+	.rwd-tables td { 
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+	}
+
+  html{
+    overflow-x:hidden;
+  }
+
+} /*end of RWD CSS*/

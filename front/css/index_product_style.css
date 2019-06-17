@@ -1,0 +1,40 @@
+.productHover{
+	width: 100%;
+	height: 570px;
+/*	outline: 5px solid #00f;*/
+	position: absolute;
+}
+
+.productHover > div{
+	width: 20%;
+	height: 100%;
+	float: left;
+	/*outline: 2px solid #0f0;*/
+	transition:1s;
+
+	}
+
+.productHover > .active{
+	width: 60%;
+}
+
+.x{
+	background-image: url(../imgs/pd1.jpg) no-repeat 100%;
+	position:absolute;
+	left:0;
+}
+
+
+.y{
+	background: url(../imgs/pd2.jpg) no-repeat 100%;
+	position:absolute;
+	left:-20%;
+
+}
+
+
+.z{
+	background: url(../imgs/pd3.jpg) no-repeat 100%;
+	position:absolute;
+	left:-40%;
+}

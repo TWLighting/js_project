@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <script src="js/jQuery-2.1.4.min.js"></script>
+</head>
+
+<body>
+    <!-- Left column -->
+    <div class="templatemo-flex-row">
+        <div class="templatemo-sidebar">
+            <header class="templatemo-site-header">
+                <a href="index.html">
+                <div>
+                    <img src="images/logo.png" height="50" width="50" alt=""> <h1>ESSAIMS</h1>
+                </div>
+            </a>  
+            </header>
+            <div class="profile-photo-container">
+                <img src="images/profile-photo.jpg" alt="Profile Photo" class="img-responsive">
+                <div class="profile-photo-overlay"></div>
+            </div>
+            <div class="mobile-menu-icon">
+                <i class="fa fa-bars"></i>
+            </div>
+            <nav class="templatemo-left-nav">
+                <ul>
+                    <li><a href="index.html"><i class="fa fa-bar-chart"></i>統計數據</a></li>
+                    <li><a href="indexBanner.html" class="active"><i class="fa fa-home fa-fw"></i>首頁管理</a></li>
+                    <li><a href="indexCourse.html"><i class="fa fa-flask"></i>課程管理</a></li>
+                    <li><a href="indexGoods.html"><i class="fa fa-database fa-fw"></i>商品管理</a></li>
+                    <li><a href="indexMember.html"><i class="fa fa-users"></i>會員管理</a></li>
+                    <li><a href="indexOrder.html"><i class="fa fa-file-text-o"></i>訂單管理</a></li>
+                    <li><a href="indexStaff.html"><i class="fa fa-sliders fa-fw"></i>員工管理</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Main content -->
+        <div class="templatemo-content col-1 light-gray-bg">
+            <div class="templatemo-top-nav-container">
+                <div class="row">
+                    <nav class="templatemo-top-nav col-lg-12 col-md-12">
+                        <ul class="text-uppercase">
+                            <li><a href="indexBanner.html" class="active">Banner管理</a></li>
+                            <li><a href="indexNews.html">最新消息管理</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="templatemo-content-container">
+                <div class="panel panel-default templatemo-content-widget white-bg no-padding templatemo-overflow-hidden">
+                    <div class="panel-heading templatemo-position-relative">
+                        <h2 class="text-uppercase">Banner資料列表 
+                        <a href="bannerCreate.html"><button type="button" class="btn btn-round btn-success "><i class="fa fa-plus"></i></button></a>
+                        </h2>
+                    </div>
+                    <div id="no-more-tables">
+                        <table class="col-md-12 table-bordered table-striped table-condensed cf">
+                            <thead class="cf">
+                                <tr>
+                                    <th>No.</th>
+                                    <th>分類</th>
+                                    <th>活動名稱</th>
+                                    <th>圖片</th>
+                                    <th>連結</th>
+                                    <th>開始日期</th>
+                                    <th>結束日期</th>
+                                    <th>活動狀態</th>
+                                    <th>修改</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td data-title="No.">01</td>
+                                    <td data-title="分類">廣告活動</td>
+                                    <td data-title="活動名稱">本月推薦</td>
+                                    <td data-title="圖片"><img src="images/p0203.png" height="100" alt=""></td>
+                                    <td data-title="連結">http://140.115.236.72/demo-projects/zd702/ZD702G1/essentialOil.html</td>
+                                    <td data-title="開始日期">2015/10/10</td>
+                                    <td data-title="結束日期">2015/12/23</td>
+                                    <td data-title="活動狀態"><div class="dataStatus">進行中</div></td>
+                                    <td data-title="修改">
+                                        <a href="bannerEdit.html"><button type="button" class="btn btn-round btn-danger"><i class="fa fa-pencil"></i></button></a>
+                                    </td>
+                                </tr>
+                                <tr><td data-title="No.">$1.13</td>
+                                <td  data-title="分類">$1.15</td>
+                                    <td data-title="活動名稱">AAD</td>
+                                    <td data-title="圖片"><img src="images/0792f0630f0004531d77715097bbd3b3.jpg" height="100" alt=""></td>
+                                    <td data-title="連結">http://140.115.236.72/demo-projects/zd702/ZD702G1/essentialOil.html</td>
+                                    <td data-title="開始日期">2015/09/18</td>
+                                    <td data-title="結束日期">2016/02/12</td>
+                                    <td data-title="活動狀態"><div class="dataStatus">進行中</div></td>
+                                    
+                                    <td data-title="修改">
+                                        <button type="button" class="btn btn-round btn-danger"><i class="fa fa-pencil"></i></button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="pagination-wrap">
+                    <ul class="pagination">
+                        <li><a href="#"><i class="fa fa-caret-left"></i></span>
+                </a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li class="active"><a href="#">3 <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                            <a href="#"><i class="fa fa-caret-right"></i></span>
+                </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
